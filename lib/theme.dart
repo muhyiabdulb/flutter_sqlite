@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// INI SAYA BUAT BEBERAPA VARIABLE GLOBAL
+
 // Note: Constant Values
 const double defaultMargin = 24.0;
 const double padding3XS = 1;

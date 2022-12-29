@@ -38,6 +38,7 @@ class _LoginPageState extends State<LoginPage> with InputValidationMixin {
   TextEditingController password = TextEditingController();
 
   UserModel? user;
+  // INIT LOCALSTORAGE
   final LocalStorage storage = LocalStorage('users');
 
   @override
@@ -174,6 +175,7 @@ class _LoginPageState extends State<LoginPage> with InputValidationMixin {
                           var test = jsonEncode(data);
                           print("test ${test}");
 
+                          // INI SET DATA USER SIMPAN KE LOCALSTORAGE
                           storage.setItem('user', test);
                           var test2 = storage.getItem('user');
                           print("test2 ${test2.runtimeType}");

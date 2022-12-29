@@ -5,6 +5,8 @@ import 'package:flutter_sqlite/pages/user/splash.dart';
 
 void main() async {
   runApp(MyApp());
+
+  // INI UNTUK INIT DATA PERTAMA MASUK KE DB, SEBAGAI AKUN USER
   var user = UserModel(
       id: 0,
       nama_depan: "Muhyi",
